@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <strada>Decebal</strada>
+            <numar>7</numar>
+            <localitate>Arad</localitate>
+            <judet>Arad</judet>
+            <tara>Romania</tara>
+        </adresa>
+    </persoana>
+</persoane>
