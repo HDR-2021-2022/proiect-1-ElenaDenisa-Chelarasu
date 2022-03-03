@@ -1,0 +1,13 @@
+jaguar:
+https://www.nationalgeographic.com/animals/mammals/facts/jaguar
+https://animaldiversity.org/accounts/Panthera_onca/#lifespan_longevity
+
+leu:
+https://ro.wikipedia.org/wiki/Leu
+https://www.nationalgeographic.com/animals/mammals/facts/african-lion
+
+leopard:
+https://animaldiversity.org/accounts/Panthera_pardus/
+
+tigru:
+https://animaldiversity.org/accounts/Panthera_tigris/

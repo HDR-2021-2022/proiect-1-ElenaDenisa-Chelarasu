@@ -1,0 +1,26 @@
+->fisier xml cu felidae
+    ->Lineage 1: 
+        ->Panthera
+            ->Leu (Panthera leo)            (DONE)
+            ->Leopard (Panthera pardus)     (DONE)
+            ->Tigru (Panthera tigris)       (DONE)
+            ->Jaguar (Panthera onca)        (DONE)
+        ->Uncia
+        ->Neofelis
+    ->Lineage 2: 
+        ->Pardofelis 
+        ->Catopuma (ASTA SUNA PREA DRAGUT)
+    ->Lineage 3: 
+        ->Leptailurus
+        ->Caracal
+        ->Profelis
+    ->Lineage 4: 
+        ->Leopardus
+    ->Lineage 5: 
+        ->Lynx
+    ->Lineage 6: 
+        ->Puma
+        ->Acinonyx
+    ->Lineage 7: Prionailurus, Otocolobus
+    ->Lineage 8: 
+        ->Felis

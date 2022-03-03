@@ -2,8 +2,16 @@
 
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="persoane">
-        <xs:sequence>
-            <xs:element name="persoana+"/>
-        </xs:sequence>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="persoana">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nume"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
     </xs:element>
 </xs:schema>
