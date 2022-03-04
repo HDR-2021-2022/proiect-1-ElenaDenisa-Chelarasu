@@ -11,3 +11,5 @@ https://animaldiversity.org/accounts/Panthera_pardus/
 
 tigru:
 https://animaldiversity.org/accounts/Panthera_tigris/
+
+-> dl e f bun pentru lista cu animale
