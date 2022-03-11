@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Despre</title>
+        <style>
+            textarea {
+              resize: none;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Programare web</h1>
+        </header>
+        <nav>
+            <a href="index.html">Acasă</a>
+            <a href="inregistreaza.html">Înregistrează</a>
+            <a href="video.html">Video</a>
+            <a href="despre.html">Despre</a>
+        </nav>
+        <hr/>
+        <main>
+            <h2>Limbajul HTML</h2>
+            <hr/>
+            <p>
+                <b>HTML(Hyper Text Markup Language)</b>
+                este un 
+                <i>limbaj de marcare</i>
+                utilizat pentru a crea pagini web.
+            </p>
+            <hr/>
+            <p>
+                Un exemplu de cod HTML il gasiti in imaginea urmatoare care se afla la adresa 
+                <a href="https://upload.wikimedia.org/wikipedia/commons/e/e4/HTML_logo.png">
+                    https://upload.wikimedia.org/wikipedia/commons/e/e4/HTML_logo.png
+                </a>
+                . Imaginea are atributul <code>height</code> de valoare 127.
+                <img src="imagini/HTML_logo.png" alt="Logo">
+            </p>
+            <p>
+                <i>Tag-urile</i> html cele mai utilizate in realizarea tabelelor sunt:
+                <br/>
+                <table border="1">
+                    <tr>
+                        <th>Comanda</th>
+                        <th>Functionalitate</th>
+                    </tr>
+                    <tr>
+                        <td><code>table</code></td>
+                        <td>defineste un tabel</td>
+                    </tr>
+                    <tr>
+                        <td><code>tr</code></td>
+                        <td>un rand dintr-un tabel</td>
+                    </tr>
+                    <tr>
+                        <td><code>td</code></td>
+                        <td>o celula dintr-un tabel</td>
+                    </tr>
+                </table>
+
+                <br/><b>Observatie:</b> Pentru a pune un contur unui tabel se poate (dar nu se recomanda) sa se puna atributul <code>border</code>="1".
+                <br/>La validare va da eroarea: <i>The border attribute on the table element is obsolete.</i>
+            </p>
+            <br/><hr/><br/>
+            <p>
+                Formularele se pot crea cu ajutorul tag-ului 
+                <code>form</code> 
+                care poate contine tag-urile: 
+                <code>input, textarea, label, select, option, button.</code>
+                <br/>
+                Pentru mai multe detalii consultati cursul sau tutorialul 
+                <a href="https://www.w3schools.com/html/html_forms.asp">HTML Forms and Inputs</a>
+                de la adresa
+                <a href="https://www.w3schools.com/html/html_forms.asp">https://www.w3schools.com/html/html_forms.asp</a>
+            </p>
+            <p>
+                Un exemplu de formular este urmatorul:
+                <form>
+                    <label for="nume">Nume:</label>
+                    <input type="text" id="nume" name="nume"><br>
+                    <label for="prenume">Prenume:</label>
+                    <input type="text" id="prenume" name="prenume"><br>
+                    <label for="parola">Parola:</label>
+                    <input type="password" id="parola" name="parola"><br>
+
+                    <label for="culoarePreferata">Culoare preferata: </label>
+                    <select id="culoarePreferata" name="culoarePreferata">
+                        <option value="rosu">rosu</option>
+                        <option value="portocaliu">portocaliu</option>
+                        <option value="galben">galben</option>
+                        <option value="verde">verde</option>
+                    </select><br>
+
+                    <label for="descriere">Descriere: </label>
+                    <textarea id="descriere" name="descriere"></textarea><br>
+
+                    <input type="checkbox" id="acord" name="acord">
+                    <label for="acord">Sunt de acord cu conditiile.</label><br>
+
+                    <button type="button">Inregistreaza</button>
+                </form>
+            </p>
+
+            <br><hr><br>
+
+            <p>
+                Pentru a crea liste se pot folosi tag-urile:
+                <br>
+                <ol type="i">
+                    <li> <code>ul</code> - lista neordonata</li>
+                    <li> <code>ol</code> - lista ordonata</li>
+                    <li> <code>li</code> - item din lista</li>
+                    <li> <code>dl</code> - lista cu descrieri</li>
+                    <li> <code>dt</code> - termen dintr-o lista cu descrieri</li>
+                    <li> <code>dd</code> - descrierea dintr-o lista cu descrieri</li>
+                </ol>
+            </p>
+            <br/>
+            <p>
+                Pentru a insera un document HTML in altul se poate folosi tag-ul <code> &#60;iframe&#62; </code><br>
+                Astfel, exemplul de mai jos insereaza continutul de la adresa <br>
+                <iframe src="https://www.w3schools.com"></iframe>
+            </p>
+        </main>
+        <footer>
+            <p>
+                &copy;2022 by Chelarasu Elena. All Rights Reserved.
+                <br>Elena in Powered by chocolate and stickers.
+            </p>
+        </footer>
+    </body>
+</html>
