@@ -1,0 +1,30 @@
+nav{
+    background-image: linear-gradient(#2CA5A0, #20635C);
+    padding: 10px 20px;
+    border-bottom: 3px double #2CA5A0;
+    border-bottom-style: dashed;
+    display: flex;
+    text-transform: uppercase;
+    cursor: pointer;
+    justify-content: space-between;
+    text-align: center;
+}
+nav>a{
+    padding:spx;
+    background-color: #112299;
+    color: #ccffcc;
+    border: 1px dotted #ccc;
+    text-decoration: none;
+}
+
+nav>a:hover{
+    background-size: 100% 100%;
+    background-color: #991122;
+    animation: spring 300ms ease-out;
+    font-weight: bold;
+}
+
+#gradMenu {
+    background-color: #cccccc;
+    background-image: linear-gradient(red, yellow);
+}

@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Acasa</title>
+        <link rel="stylesheet" type="text/css" href="css/stil.css">
+        <title>Inregistreaza</title>
     </head>
     <body>
         <header>
             <h1>Programare web</h1>
         </header>
         <nav>
-            <a href="index.html">Acasă</a>
-            <a href="inregistreaza.html">Înregistrează</a>
-            <a href="video.html">Video</a>
-            <a href="despre.html">Despre</a>
+            <a href="index.html" id="gradMenu">Acasă</a>
+            <a href="inregistreaza.html" id="gradMenu">Înregistrează</a>
+            <a href="video.html" id="gradMenu">Video</a>
+            <a href="despre.html" id="gradMenu">Despre</a>
+            <a href="desen.html" id="gradMenu">Desen</a>
         </nav>
         <main>
             <div>
@@ -24,43 +26,33 @@
                                 <input type="text" id="nume" name="nume"><br>
                                 <label for="prenume">Prenume:</label>
                                 <input type="text" id="prenume" name="prenume"><br>
+                                <label for="numeUtilizator">Nume utilizator:</label>
+                                <input type="text" id="numeUtilizator" name="numeUtilizator"><br>
                                 <label for="parola">Parola:</label>
                                 <input type="password" id="parola" name="parola"><br>
             
-                                <label for="culoarePreferata">Culoare preferata: </label>
-                                <select id="culoarePreferata" name="culoarePreferata">
-                                    <option value="rosu">rosu</option>
-                                    <option value="portocaliu">portocaliu</option>
-                                    <option value="galben">galben</option>
-                                    <option value="verde">verde</option>
-                                </select><br>
-            
-                                <label for="descriere">Descriere: </label>
-                                <textarea id="descriere" name="descriere"></textarea><br>
-            
-                                <input type="checkbox" id="acord" name="acord">
-                                <label for="acord">Sunt de acord cu conditiile.</label><br>
-            
-                                <button type="button" disabled>Înregistrează</button>
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email"><br>
+                                <label for="tel">Telefon:</label>
+                                <input type="tel" id="tel" name="tel"><br>  
                             </form>
-                        </dd>
+                        </dd><br>
                         <dt>Informații personale</dt>
                         <dd>
                             <form>
-                                <label for="nume">Nume:</label>
-                                <input type="text" id="nume" name="nume"><br>
+                                <label for="sexul">Sexul:</label>
+                                <select id="sexul" name="sexul">
+                                    <option value="M">M</option>
+                                    <option value="F">F</option>
+                                    <option value="other">Other</option>
+                                </select><br>
                                 <label for="prenume">Prenume:</label>
                                 <input type="text" id="prenume" name="prenume"><br>
                                 <label for="parola">Parola:</label>
                                 <input type="password" id="parola" name="parola"><br>
+                                
             
-                                <label for="culoarePreferata">Culoare preferata: </label>
-                                <select id="culoarePreferata" name="culoarePreferata">
-                                    <option value="rosu">rosu</option>
-                                    <option value="portocaliu">portocaliu</option>
-                                    <option value="galben">galben</option>
-                                    <option value="verde">verde</option>
-                                </select><br>
+                                
             
                                 <label for="descriere">Descriere: </label>
                                 <textarea id="descriere" name="descriere"></textarea><br>
