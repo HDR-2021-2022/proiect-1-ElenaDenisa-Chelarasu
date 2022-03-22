@@ -25,6 +25,30 @@ nav>a:hover{
 }
 
 #gradMenu {
+    background: url("./imagini/menuButton.png");
     background-color: #cccccc;
     background-image: linear-gradient(red, yellow);
+}
+
+#gradBody{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+/*flexbox*/
+
+.flex-container {
+    display: flex;
+    background-color: #E8950C;
+    height: 500px;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content:center;
+    align-content: flex-start;
+}
+  
+.flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
 }
