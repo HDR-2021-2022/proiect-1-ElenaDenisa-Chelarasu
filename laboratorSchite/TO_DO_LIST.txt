@@ -1,0 +1,34 @@
+->fisier xml cu felidae
+    ->Lineage 1: 
+        ->Panthera
+            ->Leu (Panthera leo)            (DONE)
+            ->Leopard (Panthera pardus)     (DONE)
+            ->Tigru (Panthera tigris)       (DONE)
+            ->Jaguar (Panthera onca)        (DONE)
+        ->Uncia: Leopardul zăpezilor
+        ->Neofelis
+            -> leopardul pătat
+            -> leopardul pătat de Sundaland 
+    ->Lineage 2: 
+        ->Catopuma
+            ->pisica de Borneo (Catopuma badia) 
+                ->Pisica de Borneo sau pisica Bai (Catopuma badia) este o specie de felină sălbatică endemică din insula Borneo. În anul 2002, IUCN a clasificat specia ca fiind în pericol, iar populația efectivă este de sub 2 500 de indivizi maturi.[1] Pisica de Borneo este una dintre cele mai rare specii de feline în viață. 
+            ->pisica asiatică aurie (Catopuma temminckii).
+                ->Pisica asiatică aurie (Pardofelis temminckii, sin. Catopuma temminckii) de asemenea cunoscută și ca pisica lui Temminck, este o specie de felină de dimensiuni medii din Asia de sud-est. În 2008, IUCN a clasificat specia ca fiind de risc scăzut (aproape vulnerabilă) din cauza oamenilor și a pierderii habitatului, din moment ce în pădurile din Asia de sud-est sunt cele mai rapide defrișări din lume.
+        ->Pardofelis
+            ->Pardofelis este un gen din familia pisicilor Felidae. Acest gen este definit ca incluzând o specie originară din Asia de Sud-Est: pisica marmură. Alte două specii, fost clasificate în acest gen, aparțin acum genului Catopuma.
+    ->Lineage 3: 
+        ->Leptailurus
+            ->Este singurul membru din genul Leptailurus. Trei subspecii sunt recunoscute. Servalul este o felină suplă, de mărime medie, ce are 54–62 cm în înălțime la umeri și cântărește 8–18 kg. Este caracterizat de un cap mic, urechi mari, o blană cu pete și dungi negre de culoare de la aurie-galbenă până la bubalină și o coadă scurtă cu vârful negru. Servalul are cele mai lungi picioare față de oricare altă felidă relativ cu dimensiunea corpului.
+        ->Caracal
+        ->Profelis
+    ->Lineage 4: 
+        ->Leopardus
+    ->Lineage 5: 
+        ->Lynx
+    ->Lineage 6: 
+        ->Puma
+        ->Acinonyx
+    ->Lineage 7: Prionailurus, Otocolobus
+    ->Lineage 8: 
+        ->Felis

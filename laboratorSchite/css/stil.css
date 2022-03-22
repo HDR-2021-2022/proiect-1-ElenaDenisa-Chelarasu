@@ -1,0 +1,56 @@
+nav{
+    background-image: linear-gradient(#2CA5A0, #20635C);
+    padding: 10px 20px;
+    border-bottom: 3px double #2CA5A0;
+    border-bottom-style: dashed;
+    display: flex;
+    text-transform: uppercase;
+    cursor: pointer;
+    justify-content: space-between;
+    text-align: center;
+}
+nav>a{
+    padding:spx;
+    background-color: #112299;
+    color: #ccffcc;
+    border: 1px dotted #ccc;
+    text-decoration: none;
+}
+
+nav>a:hover{
+    background-size: 100% 100%;
+    background-color: #991122;
+    animation: spring 300ms ease-out;
+    font-weight: bold;
+}
+
+#gradMenu {
+    background: url("./imagini/menuButton.png");
+    background-color: #cccccc;
+    background-image: linear-gradient(red, yellow);
+}
+
+#gradBody{
+    width: 100%;
+    height: 100%;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+/*flexbox*/
+
+.flex-container {
+    display: flex;
+    background-color: #E8950C;
+    height: 500px;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content:center;
+    align-content: flex-start;
+}
+  
+.flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
