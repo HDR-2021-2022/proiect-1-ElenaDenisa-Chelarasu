@@ -21,9 +21,21 @@
         ->Leptailurus
             ->Este singurul membru din genul Leptailurus. Trei subspecii sunt recunoscute. Servalul este o felină suplă, de mărime medie, ce are 54–62 cm în înălțime la umeri și cântărește 8–18 kg. Este caracterizat de un cap mic, urechi mari, o blană cu pete și dungi negre de culoare de la aurie-galbenă până la bubalină și o coadă scurtă cu vârful negru. Servalul are cele mai lungi picioare față de oricare altă felidă relativ cu dimensiunea corpului.
         ->Caracal
+            ->Caracalul (Caracal caracal), numit și râs de pustiu sau râs de deșert, este o felidă de mărime medie originară din Africa, Orientul Mijlociu, Asia Centrală și zonele aride ale Pakistanului și nord-vestului Indiei. Este caracterizat de o constituție robustă, picioare lungi, o față scurtă, urechi lungi cu ciuf și dinți canini lungi. Blana sa este uniform roșcată cu o tentă alutacee sau nisipie, în timp ce părțile ventrale sunt mai deschise la culoare și adesea cu semne roșcate mici. 
         ->Profelis
+            ->Pisica aurie africană (Profelis aurata) este o pisică sălbatică de talie mijlocie răspândită în pădurile tropicale ale Africii de Vest și Centrale. Are circa 80 cm lungime și o coadă de 30 cm. Este o rudă apropiată a râsului african și a servalului,[3] dar clasificarea actuală o încadrează ca singura membră a genului Profelis.
     ->Lineage 4: 
         ->Leopardus
+            ->Caracal
+            ->Kodkod
+            ->Leopardul de pampas
+            ->Pisica lui geoffroyi
+            ->Pisica margay
+            ->Pisica pantanal
+            ->Leopardus Guttulus
+            ->Ocelot
+            ->Oncila
+            ->Pisica ANDINA
     ->Lineage 5: 
         ->Lynx
     ->Lineage 6: 

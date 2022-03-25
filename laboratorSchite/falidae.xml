@@ -98,7 +98,29 @@
                 </info>
             </specii>
         </panthera>
-        
+        <uncia>
+            <specii id="1">
+                <nume_comun>Leopardul zăpezilor</nume_comun>
+                <nume_stiintific>Panthera onca</nume_stiintific>    
+                <durata_de_viata>
+                    <captivitate>20ani</captivitate>
+                    <salbaticie>11-12ani</salbaticie>
+                </durata_de_viata>
+                <marimi>
+                    <body>1.5-1.85 m</body>
+                    <coada>45-75cm</coada>
+                    <greutate>100kg</greutate>
+                </marimi>
+                <habitat id="1">terestru</habitat>
+                <habitat id="2">tropical</habitat>
+                <habitat id="3">temperat</habitat>
+                <info>
+                    Jaguar este un cuvânt împrumutat din limba portugheză.Jaguarul, Panthera onca, este singurul reprezentant din "Lumea Nouă" al genului Panthera. 
+                    Probele de ADN demonstrează că leul, tigrul, 
+                    leopardul și jaguarul au un strămoș comun ce a existat într-o perioadă cuprinsă între 6 și 10 milioane de ani în urmă.
+                </info>
+            </specii>
+        </uncia>
         
     </lineage>
 
