@@ -42,7 +42,7 @@ nav>a:hover{
 .flex-container {
     display: flex;
     background-color: #E8950C;
-    height: 500px;
+    height: 100%;
     flex-flow: row wrap;
     align-items: center;
     justify-content:center;
@@ -54,3 +54,23 @@ nav>a:hover{
     padding: 20px;
     font-size: 30px;
 }
+
+/* move text up and down */
+.movetxt {
+    animation: MoveUpDown 2s alternate infinite;
+    position: absolute;
+    left: 0;
+    bottom: 0;  
+}
+  
+@keyframes MoveUpDown {
+    from {
+        left:50%;
+        top:50% ;
+    }
+     
+    to {
+        left:50%;
+        top:60%;
+    }
+  }
