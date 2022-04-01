@@ -1,1 +1,1 @@
-c:\Python27\python.exe server_web.py
+C:\Users\elena\AppData\Local\Programs\Python\Python310\python.exe
