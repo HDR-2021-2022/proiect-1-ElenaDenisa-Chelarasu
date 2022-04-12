@@ -1,5 +1,7 @@
+from base64 import encode
 import socket
 import os  # pentru dimensiunea fisierului
+import gzip
 
 # creeaza un server socket
 serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -69,8 +71,23 @@ while True:
         clientsocket.sendall('HTTP/1.1 200 OK\r\n'.encode())
         clientsocket.sendall(('Content-Length: ' + str(os.stat(numeFisier).st_size) + '\r\n').encode())
         clientsocket.sendall(('Content-Type: ' + tipMedia +'\r\n').encode())
+        clientsocket.sendall(('Content-Encoding: gzip').encode())
         clientsocket.sendall('Server: My PW Server\r\n'.encode())
         clientsocket.sendall('\r\n'.encode())
+
+
+        """
+        raspuns = (
+            'HTTP/1.1 200 OK\r\n' +
+            'Content-Length: ' + str(os.stat(numeFisier).st_size) + '\r\n' +
+            'Content-Type: ' + tipMedia +'\r\n' +
+            'Content-Encoding: gzip' +
+            'Server: My PW Server\r\n' +
+            '\r\n'
+        ).encode()
+        raspuns = gzip.compress(raspuns)
+        clientsocket.sendall(raspuns)
+        """
         
         # citeste din fisier si trimite la server
         buf = fisier.read(1024)
