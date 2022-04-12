@@ -42,7 +42,7 @@ while True:
         numeResursaCeruta = '/index.html'
 
     # calea este relativa la directorul de unde a fost executat scriptul
-    numeFisier = '../continut' + numeResursaCeruta
+    numeFisier = os.path.abspath(os.getcwd()) + '/continut' + numeResursaCeruta
     
     fisier = None
     try:
@@ -66,11 +66,11 @@ while True:
         tipMedia = tipuriMedia.get(numeExtensie,'text/plain; charset=utf-8')
         
         # se trimite raspunsul
-        clientsocket.sendall('HTTP/1.1 200 OK\r\n')
-        clientsocket.sendall('Content-Length: ' + str(os.stat(numeFisier).st_size) + '\r\n')
-        clientsocket.sendall('Content-Type: ' + tipMedia +'\r\n')
-        clientsocket.sendall('Server: My PW Server\r\n')
-        clientsocket.sendall('\r\n')
+        clientsocket.sendall('HTTP/1.1 200 OK\r\n'.encode())
+        clientsocket.sendall(('Content-Length: ' + str(os.stat(numeFisier).st_size) + '\r\n').encode())
+        clientsocket.sendall(('Content-Type: ' + tipMedia +'\r\n').encode())
+        clientsocket.sendall('Server: My PW Server\r\n'.encode())
+        clientsocket.sendall('\r\n'.encode())
         
         # citeste din fisier si trimite la server
         buf = fisier.read(1024)
@@ -81,12 +81,12 @@ while True:
         # daca fisierul nu exista trebuie trimis un mesaj de 404 Not Found
         msg = 'Eroare! Resursa ceruta ' + numeResursaCeruta + ' nu a putut fi gasita!'
         print ("msg")
-        clientsocket.sendall('HTTP/1.1 404 Not Found\r\n')
-        clientsocket.sendall('Content-Length: ' + str(len(msg.encode('utf-8'))) + '\r\n')
-        clientsocket.sendall('Content-Type: text/plain; charset=utf-8\r\n')
-        clientsocket.sendall('Server: My PW Server\r\n')
-        clientsocket.sendall('\r\n')
-        clientsocket.sendall(msg)
+        clientsocket.sendall('HTTP/1.1 404 Not Found\r\n'.encode())
+        clientsocket.sendall(('Content-Length: ' + str(len(msg.encode('utf-8'))) + '\r\n').encode())
+        clientsocket.sendall('Content-Type: text/plain; charset=utf-8\r\n'.encode())
+        clientsocket.sendall('Server: My PW Server\r\n'.encode())
+        clientsocket.sendall('\r\n'.encode())
+        clientsocket.sendall(msg.encode())
 
     finally:
         if fisier is not None:
