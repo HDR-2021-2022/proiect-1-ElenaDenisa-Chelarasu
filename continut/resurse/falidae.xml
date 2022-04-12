@@ -119,18 +119,93 @@
         </uncia>
         <neofelis>
             <specii id="1">
-
+                <nume_comun>Leopard pătat</nume_comun>
+                <nume_stiintific>Neofelis nebulosa</nume_stiintific>    
+                <durata_de_viata>
+                    <captivitate>11ani</captivitate>
+                </durata_de_viata>
+                <marimi>
+                    <body>68-108cm</body>
+                    <coada>61-91cm</coada>
+                    <greutate>100kg</greutate>
+                </marimi>
+                <habitat id="1">terestru</habitat>
+                <habitat id="2">tropical</habitat>
+                <info>
+                    Este o felină găsită din Himalaya, în Asia de Sud-Est și în în China, și a fost clasificată ca vulnerabilă în 2008. 
+                    Vânătoarea de leoparzi pătați este interzisă în Bangladesh, China, India, Malaezia, Myanmar, Nepal, 
+                    Taiwan, Thailanda și Vietnam. Neofelis nebulosa nu este protejat prin lege în afara zonelor protejate ale Bhutan. 
+                </info>
             </specii>
             <specii id="2">
-
+                <nume_comun>Leopard pătat de Sundaland/Borneo</nume_comun>
+                <nume_stiintific>Neofelis diardi</nume_stiintific>    
+                <durata_de_viata>
+                    <captivitate>20ani</captivitate>
+                    <salbaticie>11-12ani</salbaticie>
+                </durata_de_viata>
+                <marimi>
+                    <body>115-201cm</body>
+                    <coada>55-91cm</coada>
+                    <greutate>15-30kg</greutate>
+                </marimi>
+                <habitat id="1">terestru</habitat>
+                <habitat id="2">tropical</habitat>
+                <info>
+                    Considerat a fi o subspecie a leopardului patat in trecut, leopardul de Borneo a fost recent 
+                    recunoscut ca facand parte dintr-o specie distincta. Animalul poate fi recunoscut dupa blana sa, 
+                    colorata in nuante inchise de gri sau cenusiu-galbena, brazdata de marcaje asemanatoare unor nori.
+                </info>
             </specii>
         </neofelis>
     </lineage>
 
     <lineage id="2">
-        <nume_stiintific></nume_stiintific>
+        <pardofelis>
+            <specii id="1">
+                <nume_comun>Pisica marmorată</nume_comun>
+                <nume_stiintific>Pardofelis marmorata</nume_stiintific>    
+                <durata_de_viata>
+                    <captivitate>12ani</captivitate>
+                </durata_de_viata>
+                <marimi>
+                    <body>45-61cm</body>
+                    <coada>35-55cm</coada>
+                    <greutate>2-5kg</greutate>
+                </marimi>
+                <habitat id="1">terestru</habitat>
+                <habitat id="2">tropical</habitat>
+                <info>
+                    Este o specie de pisică sălbatică mică ce trăiește în Asia de Sud și de Sud-Est. 
+                    Din 2002, ea a fost clasificată ca specie vulnerabilă de IUCN, așa cum poate fi întâlnită doar în densități mici, 
+                    și efectivul total al populației lor este considerat a fi sub 10.000 de indivizi maturi, nici o populație ne având mai mult de 1.000 de indivizi.
+                </info>
+            </specii>
+        </pardofelis>
+        <catopuma>
+            <specii id="1">
+                <nume_comun>Pisica de Borneo</nume_comun>
+                <nume_stiintific>Catopuma badia</nume_stiintific>    
+                <durata_de_viata>
+                    <captivitate>11ani</captivitate>
+                </durata_de_viata>
+                <marimi>
+                    <body>53-70cm</body>
+                    <greutate>3-5kg</greutate>
+                </marimi>
+                <habitat id="1">oriental</habitat>
+                <info>
+                    Pisica de Borneo este una dintre cele mai rare specii de feline în viață. 
+                    Este o specie de felină sălbatică endemică din insula Borneo. În anul 2002, IUCN a clasificat specia ca fiind în pericol, iar populația efectivă este de sub 2 500 de indivizi maturi.
+                </info>
+            </specii>
+        </catopuma>
     </lineage>
     
-
-    
+    <lineage id="3"></lineage>
+    <lineage id="4"></lineage>
+    <lineage id="5"></lineage>
+    <lineage id="6"></lineage>
+    <lineage id="7"></lineage>
+    <lineage id="8"></lineage>
 </felidae>

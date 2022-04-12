@@ -71,7 +71,6 @@ while True:
         clientsocket.sendall('HTTP/1.1 200 OK\r\n'.encode())
         clientsocket.sendall(('Content-Length: ' + str(os.stat(numeFisier).st_size) + '\r\n').encode())
         clientsocket.sendall(('Content-Type: ' + tipMedia +'\r\n').encode())
-        clientsocket.sendall(('Content-Encoding: gzip').encode())
         clientsocket.sendall('Server: My PW Server\r\n'.encode())
         clientsocket.sendall('\r\n'.encode())
 
