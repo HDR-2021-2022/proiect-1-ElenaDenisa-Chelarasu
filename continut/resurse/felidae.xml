@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<felidae>
+    <regn>Animalia</regn>
+    <increngatura>Chordata</increngatura>
+    <clasa>Mammalia</clasa>
+    <ordin>Carnivora</ordin>
+
+    <lineage id="1">
+        <panthera>
+            <specii id="1">
+                <nume_comun>Leu</nume_comun>
+                <nume_stiintific>Panthera leo</nume_stiintific>
+                <numele_grupului>Pride</numele_grupului>
+                <durata_de_viata>8-10ani</durata_de_viata>
+                <marimi>
+                    <cap>1.37m</cap>
+                    <body>2m</body>
+                    <coada>76.2cm</coada>
+                    <greutate>120kg-190kg</greutate>
+                </marimi>
+                <info>
+                    Este un animal foarte puternic și feroce 
+                    (numit regele animalelor); 
+                    trăiește în grupuri (formate din 1-3 masculi și 5-10 femele) 
+                    în savanele africane și mai rar în SV Asiei. 
+                    Se reproduce și în captivitate 
+                    (2-4 pui după trei luni de gestație).
+                </info>
+            </specii>
+            <specii id="2">
+                <nume_comun>Leopard</nume_comun>
+                <nume_stiintific>Panthera pardus</nume_stiintific>
+                <durata_de_viata>
+                    <captivitate>21-23ani</captivitate>
+                    <salbaticie>10-12ani</salbaticie>
+                </durata_de_viata>
+                <marimi>
+                    <body>2m</body>
+                    <greutate>40kg-80kg</greutate>
+                </marimi>
+                <habitat id="1">terestru</habitat>
+                <habitat id="2">tropical</habitat>
+                
+                <info>
+                    Leopardul își petrece timpul cel mai adesea singur, de obicei în interiorul unui teritoriu bine delimitat - 
+                    cu excepția perioadei de împerechere și a perioadei în care femela își crește puii. Dacă în același teritoriu ar locui prea mulți leoparzi, 
+                    ar nimici sau ar alunga pentru mult timp viețuitoarele ce-i alcătuiesc prada. Asemeni altor membri din familia felinelor, 
+                    și leopardul își marchează limitele teritoriului cu urină, iar pe unii copaci „semnează” cu ghearele. În zonele în care se găsesc multe animale,
+                    teritoriile de vânătoare ale leoparzilor sunt mai mici decât în regiunile mai sărace în pradă. 
+                    De obicei masculii posedă teritorii mai mari decât femelele și adesea teritoriul unui mascul se întretaie cu teritoriul uneia sau al mai multor femele.
+                </info>
+            </specii>
+            <specii id="3">
+                <nume_comun>Jaguar</nume_comun>
+                <nume_stiintific>Panthera onca</nume_stiintific>    
+                <durata_de_viata>
+                    <captivitate>20ani</captivitate>
+                    <salbaticie>11-12ani</salbaticie>
+                </durata_de_viata>
+                <marimi>
+                    <body>1.5-1.85 m</body>
+                    <coada>45-75cm</coada>
+                    <greutate>100kg</greutate>
+                </marimi>
+                <habitat id="1">terestru</habitat>
+                <habitat id="2">tropical</habitat>
+                <habitat id="3">temperat</habitat>
+                <info>
+                    Jaguar este un cuvânt împrumutat din limba portugheză.Jaguarul, Panthera onca, este singurul reprezentant din "Lumea Nouă" al genului Panthera. 
+                    Probele de ADN demonstrează că leul, tigrul, 
+                    leopardul și jaguarul au un strămoș comun ce a existat într-o perioadă cuprinsă între 6 și 10 milioane de ani în urmă.
+                </info>
+            </specii>
+            <specii id="4">
+                <nume_comun>Tigru</nume_comun>
+                <nume_stiintific>Panthera tigris</nume_stiintific>    
+                <durata_de_viata>
+                    <captivitate>16-18ani</captivitate>
+                    <salbaticie>8-10ani</salbaticie>
+                </durata_de_viata>
+                <marimi>
+                    <body>1.98-3.7 m</body>
+                    <coada>45-75cm</coada>
+                    <greutate>91-423 kg</greutate>
+                </marimi>
+                <habitat id="1">terestru</habitat>
+                <habitat id="2">tropical</habitat>
+                <habitat id="3">temperat</habitat>
+                <info>
+                    Tigrilor le sunt caracteristice dungile de culoare închisă, amplasarea cărora variază de la un individ la altul. 
+                    Corpul este adaptat pentru vânătoare, fiind dotat cu colți lungi și maxilare puternice, vedere nocturnă de șase ori mai bună decât a omului și musculatură dezvoltată, 
+                    fiind capabil să sară la o înălțime de până la doi metri cu 50 kg de carne în dinți.
+                    Tigrii se hrănesc îndeosebi cu copitate, dar pot vâna și maimuțe, păsări, pești și chiar alte răpitoare, ca lupii, leoparzii și crocodilii.
+                </info>
+            </specii>
+        </panthera>
+        <uncia>
+            <specii id="1">
+                <nume_comun>Leopardul zăpezilor</nume_comun>
+                <nume_stiintific>Panthera onca</nume_stiintific>    
+                <durata_de_viata>
+                    <captivitate>20ani</captivitate>
+                    <salbaticie>11-12ani</salbaticie>
+                </durata_de_viata>
+                <marimi>
+                    <body>1.5-1.85 m</body>
+                    <coada>45-75cm</coada>
+                    <greutate>100kg</greutate>
+                </marimi>
+                <habitat id="1">terestru</habitat>
+                <habitat id="2">tropical</habitat>
+                <habitat id="3">temperat</habitat>
+                <info>
+                    Jaguar este un cuvânt împrumutat din limba portugheză.Jaguarul, Panthera onca, este singurul reprezentant din "Lumea Nouă" al genului Panthera. 
+                    Probele de ADN demonstrează că leul, tigrul, 
+                    leopardul și jaguarul au un strămoș comun ce a existat într-o perioadă cuprinsă între 6 și 10 milioane de ani în urmă.
+                </info>
+            </specii>
+        </uncia>
+        <neofelis>
+            <specii id="1">
+                <nume_comun>Leopard pătat</nume_comun>
+                <nume_stiintific>Neofelis nebulosa</nume_stiintific>    
+                <durata_de_viata>
+                    <captivitate>11ani</captivitate>
+                </durata_de_viata>
+                <marimi>
+                    <body>68-108cm</body>
+                    <coada>61-91cm</coada>
+                    <greutate>100kg</greutate>
+                </marimi>
+                <habitat id="1">terestru</habitat>
+                <habitat id="2">tropical</habitat>
+                <info>
+                    Este o felină găsită din Himalaya, în Asia de Sud-Est și în în China, și a fost clasificată ca vulnerabilă în 2008. 
+                    Vânătoarea de leoparzi pătați este interzisă în Bangladesh, China, India, Malaezia, Myanmar, Nepal, 
+                    Taiwan, Thailanda și Vietnam. Neofelis nebulosa nu este protejat prin lege în afara zonelor protejate ale Bhutan. 
+                </info>
+            </specii>
+            <specii id="2">
+                <nume_comun>Leopard pătat de Sundaland/Borneo</nume_comun>
+                <nume_stiintific>Neofelis diardi</nume_stiintific>    
+                <durata_de_viata>
+                    <captivitate>20ani</captivitate>
+                    <salbaticie>11-12ani</salbaticie>
+                </durata_de_viata>
+                <marimi>
+                    <body>115-201cm</body>
+                    <coada>55-91cm</coada>
+                    <greutate>15-30kg</greutate>
+                </marimi>
+                <habitat id="1">terestru</habitat>
+                <habitat id="2">tropical</habitat>
+                <info>
+                    Considerat a fi o subspecie a leopardului patat in trecut, leopardul de Borneo a fost recent 
+                    recunoscut ca facand parte dintr-o specie distincta. Animalul poate fi recunoscut dupa blana sa, 
+                    colorata in nuante inchise de gri sau cenusiu-galbena, brazdata de marcaje asemanatoare unor nori.
+                </info>
+            </specii>
+        </neofelis>
+    </lineage>
+
+    <lineage id="2">
+        <pardofelis>
+            <specii id="1">
+                <nume_comun>Pisica marmorată</nume_comun>
+                <nume_stiintific>Pardofelis marmorata</nume_stiintific>    
+                <durata_de_viata>
+                    <captivitate>12ani</captivitate>
+                </durata_de_viata>
+                <marimi>
+                    <body>45-61cm</body>
+                    <coada>35-55cm</coada>
+                    <greutate>2-5kg</greutate>
+                </marimi>
+                <habitat id="1">terestru</habitat>
+                <habitat id="2">tropical</habitat>
+                <info>
+                    Este o specie de pisică sălbatică mică ce trăiește în Asia de Sud și de Sud-Est. 
+                    Din 2002, ea a fost clasificată ca specie vulnerabilă de IUCN, așa cum poate fi întâlnită doar în densități mici, 
+                    și efectivul total al populației lor este considerat a fi sub 10.000 de indivizi maturi, nici o populație ne având mai mult de 1.000 de indivizi.
+                </info>
+            </specii>
+        </pardofelis>
+        <catopuma>
+            <specii id="1">
+                <nume_comun>Pisica de Borneo</nume_comun>
+                <nume_stiintific>Catopuma badia</nume_stiintific>    
+                <durata_de_viata>
+                    <captivitate>11ani</captivitate>
+                </durata_de_viata>
+                <marimi>
+                    <body>53-70cm</body>
+                    <greutate>3-5kg</greutate>
+                </marimi>
+                <habitat id="1">oriental</habitat>
+                <info>
+                    Pisica de Borneo este una dintre cele mai rare specii de feline în viață. 
+                    Este o specie de felină sălbatică endemică din insula Borneo. În anul 2002, IUCN a clasificat specia ca fiind în pericol, iar populația efectivă este de sub 2 500 de indivizi maturi.
+                </info>
+            </specii>
+        </catopuma>
+    </lineage>
+    
+    <lineage id="3">
+        <leptailurus>
+            <specii id="1">
+                <nume_comun>Serval</nume_comun>
+                <nume_stiintific>Leptailurus serval</nume_stiintific>    
+                <durata_de_viata>
+                    <captivitate>22ani</captivitate>
+                    <salbaticie>23ani</salbaticie>
+                </durata_de_viata>
+                <marimi>
+                    <body>54-62cm</body>
+                    <greutate>8-18kg</greutate>
+                </marimi>
+                <habitat id="1">tropical</habitat>
+                <habitat id="2">temperat</habitat>
+                <info>
+                    Este o felidă originară din Africa. 
+                    Este rar în Africa Nordică și Sahel, dar răspândit la nivel larg în țările subsahariene cu excepția regiunilor 
+                    pădurilor tropicale umede. De-a lungul arealului său, se găsește în arii protejate, iar vânarea sa în țările cuprinse în 
+                    arealul său este fie interzisă, fie reglementată.
+                </info>
+            </specii>
+        </leptailurus>
+        <caracal>
+            <specii id="1">
+                <nume_comun>Caracal</nume_comun>
+                <nume_stiintific>Caracal caracal</nume_stiintific>    
+                <durata_de_viata>
+                    <captivitate>16ani</captivitate>
+                </durata_de_viata>
+                <marimi>
+                    <body>40-50cm</body>
+                    <greutate>8-19kg</greutate>
+                </marimi>
+                <habitat id="1">oriental</habitat>
+                <info>
+                    Numit și râs de pustiu sau râs de deșert, este o felidă de mărime medie originară din Africa, 
+                    Orientul Mijlociu, Asia Centrală și zonele aride ale Pakistanului și nord-vestului Indiei. 
+                    Este caracterizat de o constituție robustă, picioare lungi, o față scurtă, urechi lungi cu ciuf și dinți canini lungi. 
+                    Blana sa este uniform roșcată cu o tentă alutacee sau nisipie, în timp ce părțile ventrale sunt mai deschise la culoare 
+                    și adesea cu semne roșcate mici.
+                </info>
+            </specii>
+        </caracal>
+        <profelis>
+            <specii id="1">
+                <nume_comun>Pisica aurie africană</nume_comun>
+                <nume_stiintific>Profelis aurata</nume_stiintific>    
+                <durata_de_viata>
+                    <captivitate>11ani</captivitate>
+                </durata_de_viata>
+                <marimi>
+                    <body>80cm</body>
+                    <coada>30cm</coada>
+                    <greutate>3-5kg</greutate>
+                </marimi>
+                <habitat id="1">oriental</habitat>
+                <info>
+                    este o pisică sălbatică de talie mijlocie răspândită în pădurile tropicale ale Africii de Vest și Centrale. 
+                    Are circa 80 cm lungime și o coadă de 30 cm. Este o rudă apropiată a râsului african și a servalului, dar clasificarea 
+                    actuală o încadrează ca singura membră a genului Profelis.
+                </info>
+            </specii>
+        </profelis>
+    </lineage>
+    <lineage id="4"></lineage>
+    <lineage id="5"></lineage>
+    <lineage id="6"></lineage>
+    <lineage id="7"></lineage>
+    <lineage id="8"></lineage>
+</felidae>
