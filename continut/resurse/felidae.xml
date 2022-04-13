@@ -248,19 +248,21 @@
         </caracal>
         <profelis>
             <specii id="1">
-                <nume_comun>Pisica de Borneo</nume_comun>
-                <nume_stiintific>Catopuma badia</nume_stiintific>    
+                <nume_comun>Pisica aurie africană</nume_comun>
+                <nume_stiintific>Profelis aurata</nume_stiintific>    
                 <durata_de_viata>
                     <captivitate>11ani</captivitate>
                 </durata_de_viata>
                 <marimi>
-                    <body>53-70cm</body>
+                    <body>80cm</body>
+                    <coada>30cm</coada>
                     <greutate>3-5kg</greutate>
                 </marimi>
                 <habitat id="1">oriental</habitat>
                 <info>
-                    Pisica de Borneo este una dintre cele mai rare specii de feline în viață. 
-                    Este o specie de felină sălbatică endemică din insula Borneo. În anul 2002, IUCN a clasificat specia ca fiind în pericol, iar populația efectivă este de sub 2 500 de indivizi maturi.
+                    este o pisică sălbatică de talie mijlocie răspândită în pădurile tropicale ale Africii de Vest și Centrale. 
+                    Are circa 80 cm lungime și o coadă de 30 cm. Este o rudă apropiată a râsului african și a servalului, dar clasificarea 
+                    actuală o încadrează ca singura membră a genului Profelis.
                 </info>
             </specii>
         </profelis>

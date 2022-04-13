@@ -4,19 +4,27 @@ function incarcaLineage(){
     {
         if (this.readyState == 4 && this.status == 200)
         {
-            var xmlDoc = xml.responseXML;
-            var table="<table><tr><th>Lineage</th><th>Family</th></tr>";
-            var x = xmlDoc.getElementsByTagName("felidae");
+            var xmlDoc = this.responseXML;
+            var table="<table><tr><th>Lineage</th><th>Bebe</th></tr>";
+            var x = xmlDoc.getElementsByTagName("lineage");
             for (var i = 0; i < x.length; i++)
             {
-                table += "<tr><td>" +
-                x[i].getElementsByTagName("lineage")[0].childNodes[0].nodeValue + "</td><td>" +
-                x[i].getElementsByTagName("family")[0].childNodes[0].nodeValue +"</td></tr>";
+                console.log(x[i].tagName + x[i].id, '\n');
+                var y = x[i].children;
+                for(var j = 0; j< y.length; j++)
+                {
+                    console.log(y[j].tagName, '\t');
+                    table += "<tr><td>" + x[i].tagName + " " + x[i].id + " </td><td>" + y[j].tagName, '\t' + " </td></tr>";
+                }
+                console.log('\n');
+                // table += "<tr><td>" +
+                // x[i].children.tagName + "</td><tr>";
+                //x.getElementsByTagName("family")[i].childNodes[0] + "</td></tr>";
             }
             table +="</table>"
             document.getElementById("continut").innerHTML = table;
         }
     };
-    xhttp.open("GET", "felidae.xml", true);
+    xhttp.open("GET", "./resurse/felidae.xml", true);
     xhttp.send();
 }
