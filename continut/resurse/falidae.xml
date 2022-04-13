@@ -202,7 +202,69 @@
         </catopuma>
     </lineage>
     
-    <lineage id="3"></lineage>
+    <lineage id="3">
+        <leptailurus>
+            <specii id="1">
+                <nume_comun>Serval</nume_comun>
+                <nume_stiintific>Leptailurus serval</nume_stiintific>    
+                <durata_de_viata>
+                    <captivitate>22ani</captivitate>
+                    <salbaticie>23ani</salbaticie>
+                </durata_de_viata>
+                <marimi>
+                    <body>54-62cm</body>
+                    <greutate>8-18kg</greutate>
+                </marimi>
+                <habitat id="1">tropical</habitat>
+                <habitat id="2">temperat</habitat>
+                <info>
+                    Este o felidă originară din Africa. 
+                    Este rar în Africa Nordică și Sahel, dar răspândit la nivel larg în țările subsahariene cu excepția regiunilor 
+                    pădurilor tropicale umede. De-a lungul arealului său, se găsește în arii protejate, iar vânarea sa în țările cuprinse în 
+                    arealul său este fie interzisă, fie reglementată.
+                </info>
+            </specii>
+        </leptailurus>
+        <caracal>
+            <specii id="1">
+                <nume_comun>Caracal</nume_comun>
+                <nume_stiintific>Caracal caracal</nume_stiintific>    
+                <durata_de_viata>
+                    <captivitate>16ani</captivitate>
+                </durata_de_viata>
+                <marimi>
+                    <body>40-50cm</body>
+                    <greutate>8-19kg</greutate>
+                </marimi>
+                <habitat id="1">oriental</habitat>
+                <info>
+                    Numit și râs de pustiu sau râs de deșert, este o felidă de mărime medie originară din Africa, 
+                    Orientul Mijlociu, Asia Centrală și zonele aride ale Pakistanului și nord-vestului Indiei. 
+                    Este caracterizat de o constituție robustă, picioare lungi, o față scurtă, urechi lungi cu ciuf și dinți canini lungi. 
+                    Blana sa este uniform roșcată cu o tentă alutacee sau nisipie, în timp ce părțile ventrale sunt mai deschise la culoare 
+                    și adesea cu semne roșcate mici.
+                </info>
+            </specii>
+        </caracal>
+        <profelis>
+            <specii id="1">
+                <nume_comun>Pisica de Borneo</nume_comun>
+                <nume_stiintific>Catopuma badia</nume_stiintific>    
+                <durata_de_viata>
+                    <captivitate>11ani</captivitate>
+                </durata_de_viata>
+                <marimi>
+                    <body>53-70cm</body>
+                    <greutate>3-5kg</greutate>
+                </marimi>
+                <habitat id="1">oriental</habitat>
+                <info>
+                    Pisica de Borneo este una dintre cele mai rare specii de feline în viață. 
+                    Este o specie de felină sălbatică endemică din insula Borneo. În anul 2002, IUCN a clasificat specia ca fiind în pericol, iar populația efectivă este de sub 2 500 de indivizi maturi.
+                </info>
+            </specii>
+        </profelis>
+    </lineage>
     <lineage id="4"></lineage>
     <lineage id="5"></lineage>
     <lineage id="6"></lineage>
