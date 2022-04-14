@@ -28,19 +28,35 @@
                         <option value="F">F</option>
                         <option value="other">Other</option>
                     </select><br>
-                    <label for="prenume">Prenume:</label>
-                    <input type="text" id="prenume" name="prenume"><br>
-                    <label for="parola">Parola:</label>
-                    <input type="password" id="parola" name="parola"><br>
                     
+                    <label for="mancarePreferata">Mâncarea preferată:</label>
+                    <input list="mancaruri" name="mancarePreferata" id="mancarePreferata">
+                    <datalist id="mancaruri">
+                        <option value="Cartofi gratinații">
+                        <option value="Sarmale cu frunză de varză">
+                        <option value="Budincă de casă">
+                        <option value="Ciorbă de burtă">
+                        <option value="Ciorbă rădăuțeană">
+                        <option value="Brânză cu smântână">
+                    </datalist><br>
 
+                    <label for="culoare">Culoarea preferată:</label>
+                    <input type="color" id="culoare" name="culoare"><br>
                     
+                    <label for="brthDate">Data nașterii:</label>
+                    <input type="date" id="brthDate" name="brthDate"><br>
+                    
+                    <label for="brthHr">Ora nașterii:</label>
+                    <input type="time" id="brthHr" name="brthHr"><br>
+
+                    <label for="varsta">Vârsta:</label>
+                    <input type="range" id="varsta" name="varsta"><br>
+
+                    <label for="paginaPersonala">Adresa paginii personale:</label>
+                    <input type="url" id="paginaPersonala" name="paginaPersonala"><br>
 
                     <label for="descriere">Descriere: </label>
                     <textarea id="descriere" name="descriere"></textarea><br>
-
-                    <input type="checkbox" id="acord" name="acord">
-                    <label for="acord">Sunt de acord cu conditiile.</label><br>
 
                     <button type="button" disabled>Înregistrează</button>
                 </form>
