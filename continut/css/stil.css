@@ -62,6 +62,7 @@ dd>form{
     display: table;
 }
 form>p{
+    padding: 10px;
     display: table-row;
 }
 p>label { 
