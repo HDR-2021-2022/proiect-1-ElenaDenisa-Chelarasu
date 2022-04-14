@@ -51,6 +51,30 @@ nav>a:hover{
     background-size: cover;
 }
 
+/*pt pagina inregistreza.html*/
+.inregistreaza_1{
+    border-style: inset;
+    border-width: 50%;
+    border-width: 5px;
+    border-color:aqua blueviolet aqua blueviolet;
+}
+dd>form{
+    display: table;
+}
+form>p{
+    display: table-row;
+}
+p>label { 
+    display: table-cell;
+    padding-right: 5px;
+}
+p>input { 
+    display: table-cell; 
+}
+p>button{
+    align-self: 25%;
+}
+
 /*flexbox*/
 
 .flex-container {

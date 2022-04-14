@@ -2,63 +2,99 @@
     <dl>
         <dt>
             <dt>Informații generale</dt>
-            <dd >
+            <dd class="inregistreaza_1">
                 <form>
-                    <label for="nume">Nume:</label>
-                    <input type="text" id="nume" name="nume"><br>
-                    <label for="prenume">Prenume:</label>
-                    <input type="text" id="prenume" name="prenume"><br>
-                    <label for="numeUtilizator">Nume utilizator:</label>
-                    <input type="text" id="numeUtilizator" name="numeUtilizator"><br>
-                    <label for="parola">Parola:</label>
-                    <input type="password" id="parola" name="parola"><br>
-
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email"><br>
-                    <label for="tel">Telefon:</label>
-                    <input type="tel" id="tel" name="tel"><br>  
+                    <p>
+                        <label for="nume">Nume:</label>
+                        <input type="text" id="nume" name="nume">
+                    </p>
+                    <br>
+                    <p>
+                        <label for="prenume">Prenume:</label>
+                        <input type="text" id="prenume" name="prenume">
+                    </p>
+                    <br>
+                    <p>
+                        <label for="numeUtilizator">Nume utilizator:</label>
+                        <input type="text" id="numeUtilizator" name="numeUtilizator">
+                    </p>
+                    <br>
+                    <p>
+                        <label for="parola">Parola:</label>
+                        <input type="password" id="parola" name="parola">
+                    </p>
+                    <br>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                    </p>
+                    <br>
+                    <p>
+                        <label for="tel">Telefon:</label>
+                        <input type="tel" id="tel" name="tel">
+                    </p>
+                    <br>  
                 </form>
             </dd><br>
             <dt>Informații personale</dt>
-            <dd>
+            <dd class="inregistreaza_1">
                 <form>
-                    <label for="sexul">Sexul:</label>
-                    <select id="sexul" name="sexul">
-                        <option value="M">M</option>
-                        <option value="F">F</option>
-                        <option value="other">Other</option>
-                    </select><br>
+                    <p>
+                        <label for="sexul">Sexul:</label>
+                        <select id="sexul" name="sexul">
+                            <option value="M">M</option>
+                            <option value="F">F</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </p>
+                    <br>
+                    <p>
+                        <label for="mancarePreferata">Mâncarea preferată:</label>
+                        <input list="mancaruri" name="mancarePreferata" id="mancarePreferata">
+                        <datalist id="mancaruri">
+                            <option value="Cartofi gratinații">
+                            <option value="Sarmale cu frunză de varză">
+                            <option value="Budincă de casă">
+                            <option value="Ciorbă de burtă">
+                            <option value="Ciorbă rădăuțeană">
+                            <option value="Brânză cu smântână">
+                        </datalist>
+                    </p>
+                    <br>
+                    <p>
+                        <label for="culoare">Culoarea preferată:</label>
+                        <input type="color" id="culoare" name="culoare">
+                    </p>
+                    <br>
+                    <p>
+                        <label for="brthDate">Data nașterii:</label>
+                        <input type="date" id="brthDate" name="brthDate">
+                    </p>
+                    <br>
+                    <p>
+                        <label for="brthHr">Ora nașterii:</label>
+                        <input type="time" id="brthHr" name="brthHr">
+                    </p>
+                    <br>
+                    <p>
+                        <label for="varsta">Vârsta:</label>
+                        <input type="range" id="varsta" name="varsta">
+                    </p>
+                    <br>
+                    <p>
+                        <label for="paginaPersonala">Adresa paginii personale:</label>
+                        <input type="url" id="paginaPersonala" name="paginaPersonala">
+                    </p>
+                    <br>
+                    <p>
+                        <label for="descriere">Descriere: </label>
+                        <textarea id="descriere" name="descriere"></textarea>
+                    </p>
+                    <br>
+                    <p>
+                        <button type="button" disabled>Înregistrează</button>
+                    </p>
                     
-                    <label for="mancarePreferata">Mâncarea preferată:</label>
-                    <input list="mancaruri" name="mancarePreferata" id="mancarePreferata">
-                    <datalist id="mancaruri">
-                        <option value="Cartofi gratinații">
-                        <option value="Sarmale cu frunză de varză">
-                        <option value="Budincă de casă">
-                        <option value="Ciorbă de burtă">
-                        <option value="Ciorbă rădăuțeană">
-                        <option value="Brânză cu smântână">
-                    </datalist><br>
-
-                    <label for="culoare">Culoarea preferată:</label>
-                    <input type="color" id="culoare" name="culoare"><br>
-                    
-                    <label for="brthDate">Data nașterii:</label>
-                    <input type="date" id="brthDate" name="brthDate"><br>
-                    
-                    <label for="brthHr">Ora nașterii:</label>
-                    <input type="time" id="brthHr" name="brthHr"><br>
-
-                    <label for="varsta">Vârsta:</label>
-                    <input type="range" id="varsta" name="varsta"><br>
-
-                    <label for="paginaPersonala">Adresa paginii personale:</label>
-                    <input type="url" id="paginaPersonala" name="paginaPersonala"><br>
-
-                    <label for="descriere">Descriere: </label>
-                    <textarea id="descriere" name="descriere"></textarea><br>
-
-                    <button type="button" disabled>Înregistrează</button>
                 </form>
             </dd>
         </dt>
