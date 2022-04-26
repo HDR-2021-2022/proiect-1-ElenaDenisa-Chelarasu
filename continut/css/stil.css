@@ -80,6 +80,8 @@ p>button{
 
 .flex-container {
     display: flex;
+    align-items: center;
+    width: 700px;
     background-color: #E8950C;
     height: 100%;
     flex-flow: row wrap;
