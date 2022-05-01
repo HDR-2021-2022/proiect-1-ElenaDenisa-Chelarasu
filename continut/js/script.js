@@ -31,7 +31,8 @@ function f() {
     //sectiunea 1
     let container = document.getElementById('data_ora');
     let date = new Date();
-    let aux = date.toDateString() + "\n" + date.toTimeString();
+    let aux = '';
+    aux = date.toDateString() + "\n" + date.toTimeString();
     container.innerText = aux;
 
     container = document.getElementById('a_url');
@@ -80,6 +81,16 @@ function f() {
         aux = "Linux";
     }
     container.innerHTML = aux;
+
+    //sectiunea 2
+    var canvas = document.getElementById("canvas");
+    var context = canvas.getContext("2d"); //creez un obiect ce poate fi desenat
+    var img = new Image(500, 250);
+    //canvas.height = canvas.width * (img.height / img.width);
+    img.src = document.getElementById("id_imagine").src;
+
+    context.drawImage(img, 0, 0);   
+    //ctx.drawImage(img, 10, 10); //desenarea pe canvas
 }
 
 function showPosition(position) {

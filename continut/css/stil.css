@@ -155,3 +155,10 @@ th, td{
     right: 0;
     top: 45%;
 }
+
+/*sectiunea 2*/
+#canvas{
+    display: block;
+    width: 250px;
+    height: 250px;
+}
