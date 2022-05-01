@@ -128,12 +128,23 @@ th, td{
 }
 
 /*pagina invat.html*/
+/*sectiunea 1*/
+.sectiune{
+    background: papayawhip;
+    display: inline-block;
+    padding: 10px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
 /*element aside*/
 #invat_aside{
-    display: block;
     font-style: italic;
-    float: right;
-    width: 30%;
+    width: fit-content;
     background-color:bisque;
     padding: 10px;
+    margin-right: 5%;
+    position: fixed;
+    right: 0;
+    top: 45%;
 }

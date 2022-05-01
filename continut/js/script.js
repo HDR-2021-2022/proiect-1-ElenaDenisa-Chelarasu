@@ -52,8 +52,9 @@ function f() {
     // const articol = document.getElementById("sectiunea1");
 
     //sectiunea 1
-    let container = document.getElementById('invat1');
-    let date = new Date()
-    container.innerHTML = date.toString();
+    let container = document.getElementById('data_ora');
+    let date = new Date();
+    let aux = "Data și ora:\n" + date.toDateString() + "\n" + date.toTimeString();
+    container.innerText = aux;
     
 }
