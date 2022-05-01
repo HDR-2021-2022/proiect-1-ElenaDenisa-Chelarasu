@@ -9,14 +9,14 @@ function incarcaLineage(){
             var x = xmlDoc.getElementsByTagName("lineage");
             for (var i = 0; i < x.length; i++)
             {
-                console.log(x[i].tagName + x[i].id, '\n');
+                //console.log(x[i].tagName + x[i].id, '\n');
                 var y = x[i].children;
                 for(var j = 0; j< y.length; j++)
                 {
-                    console.log(y[j].tagName, '\t');
+                    //console.log(y[j].tagName, '\t');
                     table += "<tr><td>" + x[i].tagName + " " + x[i].id + " </td><td>" + y[j].tagName, '\t' + " </td></tr>";
                 }
-                console.log('\n');
+                //console.log('\n');
                 // table += "<tr><td>" +
                 // x[i].children.tagName + "</td><tr>";
                 //x.getElementsByTagName("family")[i].childNodes[0] + "</td></tr>";
