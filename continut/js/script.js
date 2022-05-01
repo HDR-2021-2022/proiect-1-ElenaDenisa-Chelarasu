@@ -72,6 +72,22 @@ function f() {
     {
         container.innerHTML = "Geolocation is not supported by this browser.";
     }
+
+    container = document.getElementById('so');
+    aux = "Nu se poate citi"; 
+    if (window.navigator.appVersion.indexOf("Win") != -1)
+    {
+        aux = "Windows";
+    }
+    else if (window.navigator.appVersion.indexOf("Mac") != -1) 
+    {
+        aux = "Mac";
+    }
+    else if (window.navigator.appVersion.indexOf("Linux") != -1)
+    {
+        aux = "Linux";
+    }
+    container.innerHTML = aux;
 }
 
 function showPosition(position) {
