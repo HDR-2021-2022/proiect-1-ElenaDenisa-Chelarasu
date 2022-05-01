@@ -73,8 +73,23 @@ function f() {
         container.innerHTML = "Geolocation is not supported by this browser.";
     }
 
+    //browser
+    container = document.getElementById('browser');
+    aux = '';
+    let list = ["Opera", "OPR", "Chrome", "Safari", "Firefox", "MSIE", "Edge", "Samsung Internet"];
+    for(let i=0; i<list.length; ++i)
+    {
+        if(navigator.userAgent.indexOf(list[i]) != -1 )
+        {
+            aux = list[i];
+            break;
+        }
+    }
+    container.innerHTML = aux;
+
+    //sistem de operare
     container = document.getElementById('so');
-    aux = "Nu se poate citi"; 
+    aux = ''; 
     if (window.navigator.appVersion.indexOf("Win") != -1)
     {
         aux = "Windows";
