@@ -54,12 +54,12 @@ function f() {
     //sectiunea 1
     let container = document.getElementById('data_ora');
     let date = new Date();
-    let aux = "Data și ora:\n\n " + date.toDateString() + "\n" + date.toTimeString();
+    let aux = date.toDateString() + "\n" + date.toTimeString();
     container.innerText = aux;
 
     container = document.getElementById('a_url');
     aux = '';
-    aux += "Adresa URL a paginii:\n\n" + window.location.href.toString();
+    aux += window.location.href.toString();
     container.innerText = aux;
     
 
