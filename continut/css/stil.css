@@ -126,3 +126,14 @@ th, td{
     text-align: center;
     border: 2px black solid;
 }
+
+/*pagina invat.html*/
+/*element aside*/
+#invat_aside{
+    display: block;
+    font-style: italic;
+    float: right;
+    width: 30%;
+    background-color:bisque;
+    padding: 10px;
+}

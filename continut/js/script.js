@@ -26,28 +26,34 @@ function schimbaContinut(resursa, jsFisier, jsFunctie) {
 }
 
 function f() {
-    //sectiunea 1
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
-    } else {
-        x.innerHTML = "Geolocation is not supported by this browser.";
-    }
+    //console.log("f call")
+    // if (navigator.geolocation) {
+    //     navigator.geolocation.getCurrentPosition(showPosition);
+    // } else {
+    //     x.innerHTML = "Geolocation is not supported by this browser.";
+    // }
 
-    const date = new Date();
-    //transform din data in string
-    const sDate = "Data: " + date.toDateString() + ";";
-    const sTime = "Timpul: " + date.toTimeString() + ";";
-    const sURL = "Adresa URL a paginii: " + window.location.href.toString() + ";";
-    locatie = "Locatia: ";
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
-        locatie += "lat:" + position.coords.latitude;
-        locatie += ", long:" + position.coords.longitude + ";";
-    }
-    else {
-        locatie += "Nu pot prelua locatia";
-    }
+    // const date = new Date();
+    // //transform din data in string
+    // const sDate = "Data: " + date.toDateString() + ";";
+    // const sTime = "Timpul: " + date.toTimeString() + ";";
+    // const sURL = "Adresa URL a paginii: " + window.location.href.toString() + ";";
+    // locatie = "Locatia: ";
+    // if (navigator.geolocation) {
+    //     navigator.geolocation.getCurrentPosition(showPosition);
+    //     locatie += "lat:" + position.coords.latitude;
+    //     locatie += ", long:" + position.coords.longitude + ";";
+    // }
+    // else {
+    //     locatie += "Nu pot prelua locatia";
+    // }
     
-    //afisare
-    const articol = document.getElementById("sectiunea1");
+    // //afisare
+    // const articol = document.getElementById("sectiunea1");
+
+    //sectiunea 1
+    let container = document.getElementById('invat1');
+    let date = new Date()
+    container.innerHTML = date.toString();
+    
 }
