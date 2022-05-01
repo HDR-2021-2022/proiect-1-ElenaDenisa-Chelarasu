@@ -62,5 +62,21 @@ function f() {
     aux += window.location.href.toString();
     container.innerText = aux;
     
+    container = document.getElementById('locatie');
+    aux = '';
+    if (navigator.geolocation)
+    {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    }
+    else
+    {
+        container.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
 
+function showPosition(position) {
+    lat = position.coords.latitude;
+    lon = position.coords.longitude;
+    container = document.getElementById('locatie');
+    container.innerHTML = "Latitudine: " + lat + "<br/>" + "Longitudine: " + lon;
 }
