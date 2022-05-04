@@ -13,4 +13,8 @@ class ListaCumparaturi {
         item = new Item(nume, cantitate);
         this.items.push(item);
     }
+    sterge(){
+        var aux = this.items.pop();
+        return aux;
+    }
 }
