@@ -85,7 +85,6 @@ p>button{
     background-color: #E8950C;
     height: 100%;
     flex-flow: row wrap;
-    align-items: center;
     justify-content:center;
     align-content: flex-start;
 }
@@ -159,6 +158,11 @@ th, td{
 /*sectiunea 2*/
 #canvas{
     display: block;
-    width: 250px;
-    height: 250px;
+    width: 450px;
+    height: 500px;
+}
+
+#sectiunea2 > img {
+    width: 100%;
+    height: 100%;
 }
