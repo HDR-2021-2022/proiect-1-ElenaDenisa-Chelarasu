@@ -32,12 +32,12 @@ nav>a:hover{
     font-weight: bold;
 }
 
-#gradMenu {
+.gradMenu {
     background-image: linear-gradient(yellow, red);
     background-color: #cccccc;
     
 }
-#gradMenu:hover{
+.gradMenu:hover{
     overflow: visible;
     background: url("../imagini/menuButton.png") no-repeat;
     background-size: cover;

@@ -31,17 +31,17 @@ function f() {
     //sectiunea 1
     let container = document.getElementById('data_ora');
     let date = new Date();
-    let aux = '';
+    let aux = ' ';
     aux = date.toDateString() + "\n" + date.toTimeString();
     container.innerText = aux;
 
     container = document.getElementById('a_url');
-    aux = '';
+    aux = ' ';
     aux += window.location.href.toString();
     container.innerText = aux;
     
     container = document.getElementById('locatie');
-    aux = '';
+    aux = ' ';
     if (navigator.geolocation)
     {
         navigator.geolocation.getCurrentPosition(showPosition);
