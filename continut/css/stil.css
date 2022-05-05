@@ -73,7 +73,6 @@ nav>a:hover{
 /*pt pagina inregistreza.html*/
 .inregistreaza_1{
     border-style: inset;
-    border-width: 50%;
     border-width: 5px;
     border-color:aqua blueviolet aqua blueviolet;
 }
@@ -92,7 +91,7 @@ p>input {
     display: table-cell; 
 }
 p>button{
-    align-self: 25%;
+    align-self: center;
 }
 
 /*flexbox*/
