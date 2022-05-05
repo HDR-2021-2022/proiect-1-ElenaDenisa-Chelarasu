@@ -3,8 +3,27 @@ html{
     height: max-content;
 }
 
+.acasa{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 45px;
+    color: green;
+    text-shadow: 1px 1px 0px red;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: #9c6238;
+    font-family: 'Trocchi', serif; /*font dar mai in depth*/
+    font-size: 45px;
+    font-weight: normal;
+    line-height: 48px;
+    margin: 0;
+}
+
 nav{
     height: 5%;
+    width: 95%;
     background-image: linear-gradient(#2CA5A0, #20635C);
     padding: 10px 20px;
     border-bottom: 3px double #2CA5A0;
@@ -54,7 +73,6 @@ nav>a:hover{
 /*pt pagina inregistreza.html*/
 .inregistreaza_1{
     border-style: inset;
-    border-width: 50%;
     border-width: 5px;
     border-color:aqua blueviolet aqua blueviolet;
 }
@@ -73,7 +91,7 @@ p>input {
     display: table-cell; 
 }
 p>button{
-    align-self: 25%;
+    align-self: center;
 }
 
 /*flexbox*/
@@ -174,4 +192,24 @@ th, td{
     margin-right: auto;
     width: 50%;
     border: 5px solid papayawhip;
+}
+
+.despre_sec>div {
+    width:100%;
+    height:auto;
+    display: table;
+    border: 1px dotted black;
+}
+
+.despre_sec > div > img {
+    vertical-align: middle;
+    display: table-cell;
+    display: inline-block;
+}
+
+.despre_sec > div > .span {
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
 }

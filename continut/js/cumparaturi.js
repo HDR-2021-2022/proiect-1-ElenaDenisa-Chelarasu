@@ -24,11 +24,15 @@ class ListaCumparaturi {
 }
 
 let listaCumparaturi = new ListaCumparaturi();
-var save_button = document.getElementById('adauga');
-save_button.onclick = saveData;
+//var save_button = document.getElementById('adauga');
+//save_button.onclick = saveData();
 
-function saveData(){
-    var input = document.getElementById('numeItem');
-    listaCumparaturi.adauga(id, input.value)
-    var storedValue = localStorage.getItem(id);
+function saveData()
+{
+    var nume = document.getElementById('numeItem');
+    var cant = document.getElementById('cantitate');
+    var item = new Item(nume.value, cand.value);
+    listaCumparaturi.adauga(id, item)
+    var storedValue = JSON.parse(localStorage.getItem(id));
+    console.log(storedValue);
 }
