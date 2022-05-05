@@ -1,5 +1,6 @@
 html{
-    height: 100%;
+    min-height: 100%;
+    height: max-content;
 }
 
 nav{
@@ -31,12 +32,12 @@ nav>a:hover{
     font-weight: bold;
 }
 
-#gradMenu {
+.gradMenu {
     background-image: linear-gradient(yellow, red);
     background-color: #cccccc;
     
 }
-#gradMenu:hover{
+.gradMenu:hover{
     overflow: visible;
     background: url("../imagini/menuButton.png") no-repeat;
     background-size: cover;
@@ -50,19 +51,45 @@ nav>a:hover{
     background-size: cover;
 }
 
+/*pt pagina inregistreza.html*/
+.inregistreaza_1{
+    border-style: inset;
+    border-width: 50%;
+    border-width: 5px;
+    border-color:aqua blueviolet aqua blueviolet;
+}
+dd>form{
+    display: table;
+}
+form>p{
+    padding: 10px;
+    display: table-row;
+}
+p>label { 
+    display: table-cell;
+    padding-right: 5px;
+}
+p>input { 
+    display: table-cell; 
+}
+p>button{
+    align-self: 25%;
+}
+
 /*flexbox*/
 
 .flex-container {
     display: flex;
+    align-items: center;
+    width: 700px;
     background-color: #E8950C;
     height: 100%;
     flex-flow: row wrap;
-    align-items: center;
     justify-content:center;
     align-content: flex-start;
 }
   
-.flex-container > div {
+.flex-container>div {
     margin: 10px;
     padding: 20px;
     font-size: 30px;
@@ -88,13 +115,63 @@ nav>a:hover{
     }
   }
 
-  #continut > table{
-      width: 100%;
-  }
-  th, td{
-      background-color: aliceblue;
-  }
-  #continut > table, th, td{
-      text-align: center;
-      border: 2px black solid;
-  }
+#continut>table{
+    width: 100%;
+}
+th, td{
+    background-color: aliceblue;
+}
+#continut > table, th, td{
+    text-align: center;
+    border: 2px black solid;
+}
+
+/*pagina invat.html*/
+/*sectiunea 1*/
+.sectiune{
+    background: papayawhip;
+    display: inline-block;
+    padding: 10px;
+    width: 50%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#sectiunea1>div{
+    background: white;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/*element aside*/
+#invat_aside{
+    font-style: italic;
+    width: fit-content;
+    background-color:bisque;
+    padding: 10px;
+    margin-right: 5%;
+    position: fixed;
+    right: 0;
+    top: 45%;
+}
+
+/*sectiunea 2*/
+#canvas{
+    display: block;
+    width: 450px;
+    height: 500px;
+}
+
+#sectiunea2 > img {
+    width: 100%;
+    height: 100%;
+}
+
+/*despre.html*/
+#centrare{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 5px solid papayawhip;
+}

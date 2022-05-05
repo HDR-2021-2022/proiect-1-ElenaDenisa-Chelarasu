@@ -7,7 +7,7 @@ function schimbaContinut(resursa, jsFisier, jsFunctie) {
             if (jsFisier) {
                 var elementScript = document.createElement('script');
                 elementScript.onload = function () {
-                    console.log("hello");
+                    //console.log("hello");
                     if (jsFunctie) {
                         window[jsFunctie]();
                     }
@@ -25,35 +25,77 @@ function schimbaContinut(resursa, jsFisier, jsFunctie) {
     xhttp.send();
 }
 
-function section1() {
-    if (navigator.geolocation) {
+setInterval(f, 1000);
+function f() {
+
+    //sectiunea 1
+    let container = document.getElementById('data_ora');
+    let date = new Date();
+    let aux = ' ';
+    aux = date.toDateString() + "\n" + date.toTimeString();
+    container.innerText = aux;
+
+    container = document.getElementById('a_url');
+    aux = ' ';
+    aux += window.location.href.toString();
+    container.innerText = aux;
+    
+    container = document.getElementById('locatie');
+    aux = ' ';
+    if (navigator.geolocation)
+    {
         navigator.geolocation.getCurrentPosition(showPosition);
-    } else {
-        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+    else
+    {
+        container.innerHTML = "Geolocation is not supported by this browser.";
     }
 
-    function sectiunea1() {
-        const date = new Date();
-
-        //transform din data in string
-        const sDate = "Data: " + date.toDateString() + ";";
-        const sTime = "Timpul: " + date.toTimeString() + ";";
-        const sURL = "Adresa URL a paginii: " + window.location.href.toString() + ";";
-        locatie = "Locatia: ";
-        if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(showPosition);
-            locatie += "lat:" + position.coords.latitude;
-            locatie += ", long:" + position.coords.longitude + ";";
-        }
-        else {
-            locatie += "Nu pot prelua locatia";
-        }
-
-        var sec1 = {
-            data: sDate,
-            timp: sTime,
-            adrURL: sURL,
-            locatia: locatie
+    //browser
+    container = document.getElementById('browser');
+    aux = '';
+    let list = ["Opera", "OPR", "Chrome", "Safari", "Firefox", "MSIE", "Edge", "Samsung Internet"];
+    for(let i=0; i<list.length; ++i)
+    {
+        if(navigator.userAgent.indexOf(list[i]) != -1 )
+        {
+            aux = list[i];
+            break;
         }
     }
+    container.innerHTML = aux;
+
+    //sistem de operare
+    container = document.getElementById('so');
+    aux = ''; 
+    if (window.navigator.appVersion.indexOf("Win") != -1)
+    {
+        aux = "Windows";
+    }
+    else if (window.navigator.appVersion.indexOf("Mac") != -1) 
+    {
+        aux = "Mac";
+    }
+    else if (window.navigator.appVersion.indexOf("Linux") != -1)
+    {
+        aux = "Linux";
+    }
+    container.innerHTML = aux;
+
+    //sectiunea 2
+    var canvas = document.getElementById("canvas");
+    var context = canvas.getContext("2d"); //creez un obiect ce poate fi desenat
+    var img = new Image(500, 250);
+    //canvas.height = canvas.width * (img.height / img.width);
+    img.src = document.getElementById("id_imagine").src;
+
+    context.drawImage(img, 0, 0);   
+    //ctx.drawImage(img, 10, 10); //desenarea pe canvas
+}
+
+function showPosition(position) {
+    lat = position.coords.latitude;
+    lon = position.coords.longitude;
+    container = document.getElementById('locatie');
+    container.innerHTML = "Latitudine: " + lat + "<br/>" + "Longitudine: " + lon;
 }

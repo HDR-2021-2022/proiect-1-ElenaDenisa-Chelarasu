@@ -1,2 +1,80 @@
-<section onload="sectiunea1()">
+<section class="sectiune" id="sectiunea1">
+    <h2>Informații</h2>
+    <div>
+        <h3>Data și ora:</h3>
+        <article id="data_ora"></article>
+    </div>
+    <div>
+        <h3>Adresa URL a paginii:</h3>
+        <article id="a_url"></article>
+    </div>
+    <div>
+        <h3>Locația:</h3>
+        <article id="locatie"></article>
+    </div>
+    <div>
+        <h3>Numele și versiunea browser-ului:</h3>
+        <article id="browser"></article>
+    </div>
+    <div>
+        <h3>Sistem de operare folosit:</h3>
+        <article id="so"></article>
+    </div>
+</section><br/>
+
+<section class="sectiune" id="sectiunea2">
+    <h2>Desenează-i micului Tom o minge pentru a se putea juca cu prietenii lui</h2>
+    <img id="id_imagine" src="https://i.imgur.com/pYlSW5D.png?1" style="display: none;" alt="Această imgine nu a putut fi afișată!">
+    <form>
+        <label for="culoare">Alegeți culoarea:</label>
+        <input type="color" id="culoare" name="culoare" value="#000000"><br>
+      </form>
+    <canvas id="canvas">
+        
+    </canvas>
+</section><br/>
+
+<section class="sectiune" id="sectiunea3">
+    <h2>Tabel de cunoștințe</h2>
+    <h5>Completați în tabelul de mai jos nivelul de cunoștințe acumulat pe o scară de la 1 la 10 și puneți 
+        întrebările cărora le-ați dori răspunsul</h5>
+    <table>
+        <tr>
+            <th>Nume felină</th>
+            <th>Stadiul învățării</th>
+            <th>Întrebare disponibilă</th>
+        </tr>
+        <tr>
+            <td>Tigru</td>
+            <td>6</td>
+            <td>Există și tigri albi?</td>
+        </tr>
+        <tr>
+            <td>Tigru</td>
+            <td>6</td>
+            <td>Când vor apărea informații noi?</td>
+        </tr>
+      </table>
+      <br>
+      <div>
+            <h5>Dacă doriți, puteți adăuga o linie sau o coloană nouă la poziția inserată</h5>
+        <form>
+            <label for="pozitie">Poziția inserării:</label>
+            <input type="text" id="pozitie" placeholder="linie/coloană"><br>
+            <label for="culoare2">Alegeți culoarea liniei/coloanei:</label>
+            <input type="color" id="culoare2" name="culoare" value="#000000"><br>
+            <div style="align-items: center;">
+                <button type="submit" value="Linie">Linie</button>
+                <button type="submit" value="Coloana">Coloană</button>
+            </div>
+        </form>
+      </div>
+      
 </section>
+
+<aside id="invat_aside">
+    <p>Către:</p>
+    <a href="#sectiunea1">Secțiunea 1</a><br/>
+    <a href="#sectiunea2">Secțiunea 2</a><br/>
+    <a href="#sectiunea3">Secțiunea 3</a><br/>
+</aside>
