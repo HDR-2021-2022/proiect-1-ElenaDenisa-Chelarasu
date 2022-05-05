@@ -3,6 +3,14 @@ html{
     height: max-content;
 }
 
+.acasa{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 45px;
+    color: green;
+    text-shadow: 1px 1px 0px red;
+    text-align: center;
+}
 h1{
     text-align: center;
     color: #9c6238;
